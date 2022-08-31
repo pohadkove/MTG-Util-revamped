@@ -35,7 +35,8 @@
 				<i class="bi bi-list" />
 			</a>
 			<ul class="menu">
-				<a href="/about" target="_blank" class="btn btn-link">About</a>
+				<li><a href="/rules" class="btn btn-link">Rules</a></li>
+				<li><a href="/about" class="btn btn-link">About</a></li>
 			</ul>
 		</div>
 	</section>
@@ -46,7 +47,9 @@
 		</button>
 	</section>
 </header>
-<slot />
+<div class="mainmargin">
+	<slot />
+</div>
 
 <style>
 	@import '../../node_modules/spectre.css/dist/spectre.min.css';
@@ -66,6 +69,8 @@
 		background-color: var(--bg-color);
 		color: var(--font-color);
 		font-size: 16px;
+	}
+	.mainmargin {
 		margin: 5px;
 	}
 	.menu {
