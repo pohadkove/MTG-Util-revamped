@@ -1,12 +1,15 @@
 <script>
 	import Counter from '$lib/counter.svelte';
-	import Counter2 from '$lib/counter2.svelte';
+	import Dice from '$lib/Dice.svelte';
+	import { onMount } from 'svelte';
+	onMount(async () => {});
 </script>
 
 <div class="container">
 	<div class="columns">
 		<Counter />
-		<Counter2 />
+		<Dice />
+		<Counter />
 	</div>
 </div>
 
