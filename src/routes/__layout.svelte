@@ -30,7 +30,14 @@
 <header class="navbar">
 	<section class="navbar-section">
 		<a href="/" class="btn btn-link btn-action"><i class="bi bi-house-door" /></a>
-		<a href="#" class="btn btn-link btn-action"><i class="bi bi-list" /></a>
+		<div class="dropdown">
+			<a href="#" class="btn btn-link dropdown-toggle" tabindex="0">
+				<i class="bi bi-list" />
+			</a>
+			<ul class="menu">
+				<a href="/about" target="_blank" class="btn btn-link">About</a>
+			</ul>
+		</div>
 	</section>
 	<section class="navbar-center" />
 	<section class="navbar-section">
@@ -48,16 +55,23 @@
 	:root {
 		--bg-color: #ffffff;
 		--font-color: #000000;
+		--bg-accent: #d0d0d0;
 	}
 	:global(body.dark) {
 		--bg-color: #282b30;
 		--font-color: #ececec;
+		--bg-accent: #0f1011;
 	}
 	:global(body) {
 		background-color: var(--bg-color);
 		color: var(--font-color);
 		font-size: 16px;
 		margin: 5px;
+	}
+	.menu {
+		color: var(--font-color);
+		background-color: var(--bg-color);
+		box-shadow: 0 0.05rem 0.2rem var(--bg-accent);
 	}
 	.btn-link {
 		color: var(--font-color);

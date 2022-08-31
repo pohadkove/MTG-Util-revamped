@@ -29,7 +29,7 @@
 	}
 	input[type='text'] {
 		margin: 5px;
-		background-color: var(--bg-accent);
+		background-color: var(--bg-color);
 		color: var(--font-color);
 	}
 

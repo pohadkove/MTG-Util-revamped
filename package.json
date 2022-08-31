@@ -1,9 +1,10 @@
 {
-	"name": "sveltekit-electron",
-	"version": "0.0.1",
+	"name": "MTG-Util",
+	"version": "1.0.0",
 	"private": true,
-	"description": "Minimal Sveltekit + Electron starter template.",
+	"description": "MTG utility app",
 	"main": "src/electron.cjs",
+	"author": "pohadkove",
 	"type": "module",
 	"scripts": {
 		"dev": "cross-env NODE_ENV=dev npm run dev:all",
@@ -23,6 +24,7 @@
 		"Chrome 89"
 	],
 	"dependencies": {
+		"@azure/msal-node": "^1.12.1",
 		"bootstrap-icons": "^1.9.1",
 		"electron-context-menu": "^3.3.0",
 		"electron-reloader": "^1.2.3",
