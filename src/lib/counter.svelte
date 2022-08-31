@@ -11,7 +11,7 @@
 
 <div class="card counter center-text">
 	<div class="card-header">
-		<h1 contenteditable="true" style="width:fit-content;">Player</h1>
+		<h1 contenteditable="true" style="width:fit-content;" class="center-text">Player</h1>
 	</div>
 	<div class="card-image ">
 		<i class="bi bi-person" />

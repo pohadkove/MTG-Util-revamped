@@ -7,7 +7,7 @@
 	}
 </script>
 
-<div class="card center-text" style="margin-left: 10px; margin-right: 10px;">
+<div class="card center-text counter" style="margin-left: 15px; margin-right: 15px;">
 	<h1>Random #</h1>
 	<p>{rng}</p>
 	<input type="text" placeholder="from" bind:value={from} />

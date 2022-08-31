@@ -5,7 +5,7 @@
 	onMount(async () => {});
 </script>
 
-<div class="container">
+<div class="container center">
 	<div class="columns">
 		<Counter />
 		<Dice />
@@ -14,4 +14,9 @@
 </div>
 
 <style>
+	.center {
+		display: flex;
+		align-items: center; /* Vertical center alignment */
+		justify-content: center; /* Horizontal center alignment */
+	}
 </style>

@@ -1,5 +1,7 @@
 .center-text {
     text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .card {
     background-color: var(--background-color);
@@ -15,5 +17,9 @@ button {
 @media (max-width: 1000px) {
     .counter {
         font-size: 2em;
+    }
+}@media (min-width: 1080px) {
+    .counter {
+        font-size: 3.2em;
     }
 }

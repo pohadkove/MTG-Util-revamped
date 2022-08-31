@@ -1,6 +1,6 @@
 {
-	"appId": "com.example.app",
-	"productName": "Svelte Electron",
+	"appId": "None",
+	"productName": "MTG-Util",
 	"directories": {
 		"output": "dist"
 	},
@@ -11,5 +11,14 @@
 			"from": "build",
 			"to": ""
 		}
-	]
+	],
+	"nsis": {
+		"oneClick": false,
+		"perMachine": false,
+		"allowElevation": false,
+		"allowToChangeInstallationDirectory": true,
+		"displayLanguageSelector": false,
+		"createDesktopShortcut": false
+		
+	  }
 }
