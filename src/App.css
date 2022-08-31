@@ -1,0 +1,19 @@
+.center-text {
+    text-align: center;
+}
+.card {
+    background-color: var(--background-color);
+    border: 0.05rem solid var(--background-color);
+    width: fit-content;
+}
+button {
+    color: var(--font-color);
+}
+.counter {
+    font-size: 3em;
+}
+@media (max-width: 1000px) {
+    .counter {
+        font-size: 2em;
+    }
+}
