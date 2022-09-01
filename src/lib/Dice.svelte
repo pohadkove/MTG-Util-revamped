@@ -1,7 +1,7 @@
 <script>
 	let from;
 	let to;
-	let rng = '5';
+	let rng = 'number';
 	function generate() {
 		rng = Math.floor(1 + Math.random() * to + from);
 	}

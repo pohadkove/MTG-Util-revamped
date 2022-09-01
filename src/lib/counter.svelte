@@ -1,4 +1,6 @@
 <script>
+	import { onMount } from 'svelte';
+	onMount(async () => {});
 	let count = 20;
 
 	function p1lps() {
@@ -32,4 +34,7 @@
 </div>
 
 <style>
+	.bi-person {
+		font-size: 3em;
+	}
 </style>
